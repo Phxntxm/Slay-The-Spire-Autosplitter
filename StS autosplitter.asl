@@ -18,7 +18,6 @@ startup
 	string last_unlock = null; // The last boss we unlocked (controls our acts)
 	vars.act = 0; // Which act we're on
 	vars.starting_line = 0; // Which line the run has started on
-	bool test = (last_unlock == "GHOST" || last_unlock == "GUARDIAN" || last_unlock == "SLIME");
 }
 start
 {
