@@ -44,7 +44,6 @@ start
 		vars.act = 1;
 		vars.starting_line = count;
 		vars.game_started = true;
-		vars.game_exited = false;
 		return true;
 	}
 }
